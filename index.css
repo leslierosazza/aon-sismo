@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+#main {
+	margin: 0 auto 0 0;
+	width: 1004px;
+}
+#cabecera {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(images/cabecera.jpg);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 216px;
+	margin-bottom: 0;
+	width: 1004px;
+}
+#vaciomedio1 {
+	margin-left: 84px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 54px;
+	margin-bottom: 0;
+	width: 812px;
+}
+#vacioIzquierda1 {
+	margin-left: 5px;
+	margin-top: 13px;
+	display: inline;
+	float: left;
+	height: 1245px;
+	margin-bottom: 0;
+	width: 78px;
+}
+#colwrap1 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 899px;
+}
+#revisaInstalaciones {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 87px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#vacioderecha1 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 87px;
+	margin-bottom: 0;
+	width: 413px;
+}
+#colwrap3 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 400px;
+}
+#pasadizosLibres {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 87px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#zonasSeguras {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 90px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#PlanificaParticipa {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 90px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#btnMochilaEmergencia {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 267px;
+	margin-bottom: 0;
+	width: 277px;
+}
+#vacioDerecha2 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 235px;
+	margin-bottom: 0;
+	width: 201px;
+}
+#vacioMedio2 {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 53px;
+	margin-bottom: 0;
+	width: 636px;
+}
+#colwrap4 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 400px;
+}
+#conservaCalma {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 85px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#noUseAscensores {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 92px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#AlejateVentanas {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 88px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#UbicateZonaSeguras {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 92px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#vacioMedio3 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 357px;
+	margin-bottom: 0;
+	width: 346px;
+}
+#vacioDerecha3 {
+	margin-left: 0px;
+	margin-top: 59px;
+	display: inline;
+	float: left;
+	height: 267px;
+	margin-bottom: 0;
+	width: 124px;
+}
+#colwrap5 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 400px;
+}
+#vacioMedio4 {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 55px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#RevisaLugar {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 92px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#btnMsjTexto {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 147px;
+	margin-bottom: 0;
+	width: 308px;
+}
+#colwrap6 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 400px;
+}
+#PuntoEncuentro {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 90px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#UsaLinterna {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 87px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#btnNroEmergencia {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 177px;
+	margin-bottom: 0;
+	width: 416px;
+}
+#PersonasHeridas {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 88px;
+	margin-bottom: 0;
+	width: 399px;
+}
+#vacioMedio5 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 88px;
+	margin-bottom: 0;
+	width: 412px;
+}
+#BtnAON {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 90px;
+	margin-bottom: 0;
+	width: 117px;
+}
+#btnVulnerabilidades {
+	margin-right: 0px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: 73px;
+	margin-bottom: 0;
+	width: 146px;
+}
+#btnMarina {
+	margin-right: 34px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: 73px;
+	margin-bottom: 0;
+	width: 73px;
+}
+#btnIndeci {
+	margin-right: 19px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: 80px;
+	margin-bottom: 0;
+	width: 88px;
+}
+#vacioMedio6 {
+	margin-right: 17px;
+	margin-top: 0px;
+	display: inline;
+	float: right;
+	height: 58px;
+	margin-bottom: 0;
+	width: 248px;
+}

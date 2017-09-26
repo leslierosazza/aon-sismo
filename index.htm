@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Maqueta AON</title>
+	<link rel="stylesheet" type="text/css" href="./index.css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+
+<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script id="popup-arrow-script">
+	$.mobile.document.on( "click", "#open-popupArrow", function( evt ) {
+		$( "#popupArrow" ).popup( "open", { x: evt.pageX, y: evt.pageY } );
+		evt.preventDefault();
+	});
+	</script>
+    <style>
+    table.center {
+   		margin-left:auto; 
+   		margin-right:auto;
+		display: inline-table;
+		background:#ffffff
+	}
+	
+	body { 
+	background-position:center;	
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	text-align:center;
+	}
+	
+	
+	</style>
+    <style id="popup-arrow-css">
+	.clickable-area {
+		display: block;
+		width: 100%;
+		height: 300px;
+		background-color: #ffefef;
+	}
+	.clickable-area:focus {
+		outline: 0;
+	}
+	</style>
+	<style id="tooltip-btn">
+	.ui-btn.my-tooltip-btn,
+	.ui-btn.my-tooltip-btn:hover,
+	.ui-btn.my-tooltip-btn:active {
+		background: none;
+		border: 0;
+	}
+	</style>      
+
+    
+</head>
+
+<body>
+<table class="center" border="0" cellpadding="0" cellspacing="0" width="1004">
+<tr>
+   <td>
+<div id="main">
+    	<a href="" target="_blank"><img src="images/cabecera.jpg" id="cabecera" alt=""/></a>
+		<div class="clearFloat"></div>
+	<img src="images/vaciomedio1.jpg" id="vaciomedio1" alt="" />
+		<div class="clearFloat"></div>
+	<img src="images/vacioIzquierda1.jpg" id="vacioIzquierda1" alt="" />
+		<div id="colwrap1">
+		<a  href="#popupInfo1" data-rel="popup" data-transition="pop">
+			<img src="images/revisaInstalaciones.jpg" id="revisaInstalaciones" alt="Click para ver mas" onmouseover="this.src='images/revisaInstalacionesOver.jpg';"
+         onmouseout="this.src='images/revisaInstalaciones.jpg';" />
+					</a>
+                    <div data-role="popup" id="popupInfo1" class="ui-content" data-theme="a" style="max-width:350px;">
+	        <p> ► Revisa y mejora el estado de las instalaciones de gas, agua y sistema eléctrico.</p>
+			<p> ► Si vives en una casa o vecindario antiguo, revisa si hay muros, techos o balcones agrietados y daños en tuberías e instalaciones eléctricas. Junto con tus vecinos, repórtalo a tus autoridades para tomar las medidas necesarias.</p>
+		</div>
+                    
+		<img src="images/vacioderecha1.jpg" id="vacioderecha1" alt="" />
+				<div class="clearFloat"></div>
+		<div id="colwrap3">
+			<a href="#popupInfo2" data-rel="popup" data-transition="pop">
+				<img src="images/pasadizosLibres.jpg" id="pasadizosLibres" alt="Click para ver mas"  onmouseover="this.src='images/pasadizosLibresOver.jpg';"
+         onmouseout="this.src='images/pasadizosLibres.jpg';"/>
+							</a>
+        <div data-role="popup" id="popupInfo2" class="ui-content" data-theme="a" style="max-width:350px;">
+        	<p> ► Deja libre de cualquier obstáculo los pasillos y puertas de tu hogar. </p>
+			<p> ► Además, cambia de lugar objetos que te pueden lastimar o caer encima.</p>
+		</div>                    
+			<a href="#popupInfo3" data-rel="popup" data-transition="pop">
+				<img src="images/zonasSeguras.jpg" id="zonasSeguras" alt="Click para ver mas"  onmouseover="this.src='images/zonasSegurasOver.jpg';"
+         onmouseout="this.src='images/zonasSeguras.jpg';"/>
+							</a>
+        <div data-role="popup" id="popupInfo3" class="ui-content" data-theme="a" style="max-width:350px;">
+        <p>► Las zonas seguras internas son los lugares estructuralmente seguros dentro de una edificación, libres de objetos que puedan caer o vidrios (ventanas).</p>
+        <p>► Las zonas seguras externas son lugares abiertos como patios de colegio, lozas deportivas y otras áreas determinadas por Defensa Civil.</p>
+        <p>► En caso de tsunami, las zonas seguras son lugares altos con más de 15 metros sobre el nivel del mar y edificios con más de 5 pisos.﻿</p>
+        <p>► También se debe identificar las rutas de evacuación internas, por donde nos desplazaremos dentro de una edificación ante una emergencia, y las rutas externas, que nos dirigirán a las zonas seguras.</p>
+        <p>► Es importante conocer los puntos de encuentro o reunión, los cuales son establecidos por los municipios y donde encontrarás atención ante un sismo.</p>
+   		</div>                    
+			<a href="#popupInfo4" data-rel="popup" data-transition="pop">
+				<img src="images/PlanificaParticipa.jpg" id="PlanificaParticipa" alt="Click para ver mas"  onmouseover="this.src='images/PlanificaParticipaOver.jpg';"
+         onmouseout="this.src='images/PlanificaParticipa.jpg';"/>
+							</a>
+                            <div data-role="popup" id="popupInfo4" class="ui-content" data-theme="a" style="max-width:350px;">
+   	<p>► Acuerda con tu familia y vecinos un plan de emergencia y evacuación ante un sismo.</p>
+	<p>► Coordina con la administración del edificio para contar con luces de emergencia y extintores. Así como garantizar que los pasadizos dirijan a las zonas de escape y que las puertas que conducen a las escaleras de escape se abran hacia afuera y estén libres de obstáculos.</p>
+<p>► Exige la señalización de Zonas Seguras y Rutas de Evacuación en tu edificio, centro laboral y/o institución educativa.</p>
+<p>► Participa en los simulacros convocados por Defensa Civil.</p>
+   </div>
+		</div>
+		<a href="#popupInfo5" data-rel="popup" data-transition="pop">
+			<img src="images/btnMochilaEmergencia.jpg" id="btnMochilaEmergencia" alt="Click para ver mas"  onmouseover="this.src='images/btnMochilaEmergenciaOver.jpg';"
+         onmouseout="this.src='images/btnMochilaEmergencia.jpg';"/>
+					</a>
+                    <div data-role="popup" id="popupInfo5" class="ui-content" data-theme="a" style="max-width:350px;">
+                        <p>INDECI recomienda tener lista una MOCHILA DE EMERGENCIA, la cual debe contener lo siguiente:</p>
+                        <p>► HIGIENE: gel antibacterial, papel higiénico, toallas.</p>
+                        <p>► BOTINQUÍN DE PRIMEROS AUXILIOS</p>
+                        <p>► ALIMENTOS: comida enlatada, paquete de galletas de agua, agua embotellada (1/2 litro) y chocolate en barra.</p>
+                        <p>► ABRIGO: manta polar y pantuflas.</p>
+                        <p>► DINERO: en monedas</p>
+                        <p>► COMUNICACIÓN: linterna y pilas, radio portátil, silbato, útiles para escribir y agenda con números de emergencia.</p>
+                        <p>► OTROS: bolsas resistentes, cuchilla multiusos, guantes de trabajo, encendedor y cinta adhesiva.</p>
+                    </div>
+                    
+		<img src="images/vacioDerecha2.jpg" id="vacioDerecha2" alt="" />
+				<div class="clearFloat"></div>
+		<img src="images/vacioMedio2.jpg" id="vacioMedio2" alt="" />
+				<div class="clearFloat"></div>
+		<div id="colwrap4">
+			<a href="#popupInfo6" data-rel="popup" data-transition="pop">
+				<img src="images/conservaCalma.jpg" id="conservaCalma" alt="Click para ver mas"  onmouseover="this.src='images/conservaCalmaOver.jpg';"
+         onmouseout="this.src='images/conservaCalma.jpg';"/>
+							</a>
+            <div data-role="popup" id="popupInfo6" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>► ﻿Lo más importante durante un sismo es mantener la calma y aplicar todo lo practicado en los simulacros.</p>
+            </div>                
+			<a href="#popupInfo7" data-rel="popup" data-transition="pop">
+				<img src="images/noUseAscensores.jpg" id="noUseAscensores" alt="Click para ver mas"  onmouseover="this.src='images/noUseAscensoresOver.jpg';"
+         onmouseout="this.src='images/noUseAscensores.jpg';"/>
+							</a>
+            <div data-role="popup" id="popupInfo7" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>► ﻿Usar los ascensores durante el sismo es un gran riesgo, ya que pueden desprenderse con el movimiento y puede colapsar su sistema.</p>
+            </div>                
+			<a href="#popupInfo8" data-rel="popup" data-transition="pop">
+				<img src="images/AlejateVentanas.jpg" id="AlejateVentanas" alt="Click para ver mas"  onmouseover="this.src='images/AlejateVentanasOver.jpg';"
+         onmouseout="this.src='images/AlejateVentanas.jpg';"/>
+							</a>
+            <div data-role="popup" id="popupInfo8" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>► ﻿Aléjate de ventanas, repisas o de cualquier utensilio, artefacto u objeto que pueda rodar o caer en la ruta de evacuación.</p>
+            </div>
+			<a href="#popupInfo9" data-rel="popup" data-transition="pop">
+				<img src="images/UbicateZonaSeguras.jpg" id="UbicateZonaSeguras" alt="Click para ver mas"  onmouseover="this.src='images/UbicateZonaSegurasOver.jpg';"
+         onmouseout="this.src='images/UbicateZonaSeguras.jpg';"/>
+							</a>
+            <div data-role="popup" id="popupInfo9" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>► ﻿Ubícate en las zonas previamente identificadas como seguras ante este tipo de emergencia y que han sido establecidas por Defensa Civil.</p>
+            </div>                    
+		</div>
+		<a href="">
+			<img src="images/vacioMedio3.jpg" id="vacioMedio3" alt="Click para ver mas" />
+					</a>
+		<a href="#popupInfo10" data-rel="popup" data-transition="pop">
+			<img src="images/vacioDerecha3.jpg" id="vacioDerecha3" alt="Click para ver mas"   onmouseover="this.src='images/vacioDerecha3Over.jpg';"
+         onmouseout="this.src='images/vacioDerecha3.jpg';"/>
+					</a>
+             <div data-role="popup" id="popupInfo10" class="ui-content" data-theme="a" style="max-width:350px;">
+            <p>Además, es necesario una CAJA DE RESERVA, que consiste en una pequeña despensa en la que se guarda lo siguiente:</p>
+            <p>► ALIMENTOS: agua embotellada sin gas (2.5 litros), sopa instantánea, comida enlatada, leche en polvo, caramelos, paquete de galletas de agua y chocolate en barra.</p>
+            <p>► ROPA: casacas y chompas, ropa interior, medias y manta polar.</p>
+            <p>► HIGIENE: toallas, cepillo de dientes, pasta dental y jabón.</p>
+            <p>► ﻿OTROS: olla, termo, platos, vasos y cubiertos descartables, imperdibles y pilas.</p>
+            </div>
+		<div class="clearFloat"></div>
+		<div id="colwrap5">
+			<img src="images/vacioMedio4.jpg" id="vacioMedio4" alt="" />
+						<a href="#popupInfo11" data-rel="popup" data-transition="pop">
+				<img src="images/RevisaLugar.jpg" id="RevisaLugar" alt="Click para ver mas"   onmouseover="this.src='images/RevisaLugarOver.jpg';"
+         onmouseout="this.src='images/RevisaLugar.jpg';"/>
+							</a>
+            <div data-role="popup" id="popupInfo11" class="ui-content" data-theme="a" style="max-width:350px;">
+            <p>► Luego del sismo, revisa si el inmueble está habitable y si el suministro eléctrico, las conexiones de gas y agua están en buen estado.</p>
+            <p>► Si es posible, corta el suministro de luz, agua y gas, a fin de evitar incendios o inundaciones.</p>
+            <p>► Aléjate de muros, paredes, balcones y ventanas dañadas.</p>
+            <p>► ﻿Los especialistas de Defensa Civil de la municipalidad de tu distrito deberán determinar si tu casa se encuentra habitable o no.</p>
+           </div>                
+		</div>
+		<a href="#popupInfo12" data-rel="popup" data-transition="pop">
+			<img src="images/btnMsjTexto.jpg" id="btnMsjTexto" alt="Click para ver mas"  onmouseover="this.src='images/btnMsjTextoOver.jpg';"
+         onmouseout="this.src='images/btnMsjTexto.jpg';"/>
+					</a>
+            <div data-role="popup" id="popupInfo12" class="ui-content" data-theme="a" style="max-width:350px;">
+            <p>► Durante un sismo, es posible que se saturen las líneas telefónicas, por lo que es mejor comunicarse mediante mensaje de texto de teléfonos celulares.</p>
+            <p>►Otras opciones son aplicaciones de Internet y el sistema de mensajería de voz llamando al 119.</p>
+            </div>        
+		<div class="clearFloat"></div>
+		<div id="colwrap6">
+			<a href="#popupInfo13" data-rel="popup" data-transition="pop">
+				<img src="images/PuntoEncuentro.jpg" id="PuntoEncuentro" alt="Click para ver mas"  onmouseover="this.src='images/PuntoEncuentroOver.jpg';"
+         onmouseout="this.src='images/PuntoEncuentro.jpg';"/>
+							</a>
+                <div data-role="popup" id="popupInfo13" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>► Acude inmediatamente al Punto de Encuentro junto a tu familia y vecinos.</p>
+                <p>► Si te encuentras en zona costera, aléjate de las playas lo antes posibles para evitar un eventual tsunami.</p>
+               </div>            
+			<a href="#popupInfo14" data-rel="popup" data-transition="pop">
+				<img src="images/UsaLinterna.jpg" id="UsaLinterna" alt="Click para ver mas" onmouseover="this.src='images/UsaLinternaOver.jpg';"
+         onmouseout="this.src='images/UsaLinterna.jpg';" />
+							</a>
+                   <div data-role="popup" id="popupInfo14" class="ui-content" data-theme="a" style="max-width:350px;">
+                    <p>► Solo haga uso de la linterna. No encienda fósforos ni velas ante el riesgo de una eventual fuga de gas en el lugar.</p>
+                   </div>            
+		</div>
+		<a href="#popupInfo15" data-rel="popup" data-transition="pop">
+			<img src="images/btnNroEmergencia.jpg" id="btnNroEmergencia" alt="Click para ver mas"  onmouseover="this.src='images/btnNroEmergenciaOver.jpg';"
+         onmouseout="this.src='images/btnNroEmergencia.jpg';"/>
+					</a>
+               <div data-role="popup" id="popupInfo15" class="ui-content" data-theme="a" style="max-width:350px;">
+                <p>Ten a la mano los números de teléfonos de:</p>
+                <p>► BOMBEROS: 116 </p>
+                <p>► AMBULANCIAS DEL SAMU: 106 </p>
+                <p>► POLICÍA NACIONAL: 105</p>
+                <p>► SUTRAN: 0800 12345</p>
+               </div>        
+		<div class="clearFloat"></div>
+		<a href="#popupInfo16" data-rel="popup" data-transition="pop">
+			<img src="images/PersonasHeridas.jpg" id="PersonasHeridas" alt="Click para ver mas"  onmouseover="this.src='images/PersonasHeridasOver.jpg';"
+         onmouseout="this.src='images/PersonasHeridas.jpg';"/>
+		</a>
+        <div data-role="popup" id="popupInfo16" class="ui-content" data-theme="a" style="max-width:350px;">
+         <p>► Verifica tu estado de salud y de las personas que están contigo.</p>
+         <p>► Evita mover personas heridas o con fracturas sin ayuda profesional.</p>
+         <p>► De ser necesario, solicita ayuda a los bomberos y/o Policía Nacional.</p>
+        </div>        
+		<img src="images/vacioMedio5.jpg" id="vacioMedio5" alt="" />
+				<div class="clearFloat">
+                
+                </div>
+          
+				<a href="https://www.aon.com.pe" target="_blank">
+					<img src="images/BtnAON.jpg" id="BtnAON" alt="Aon Internacional" />
+				</a>
+		<a href="pdf/Aon_Analisis_de _Vulnerabilidades.pdf" target="_blank">
+			<img src="images/btnVulnerabilidades.jpg" id="btnVulnerabilidades" alt="Análisis de Vulnerabilidades" />
+					</a>
+		<a href="https://play.google.com/store/apps/details?id=me.doapps.appdhn&amp;hl=es_419" target="_blank">
+			<img src="images/btnMarina.jpg" id="btnMarina" alt="MGP Tsunamis" />
+					</a>
+		<a href="https://www.indeci.gob.pe/" target="_blank">
+			<img src="images/btnIndeci.jpg" id="btnIndeci" alt="Indecia Peru" />
+					</a>
+		<img src="images/vacioMedio6.jpg" id="vacioMedio6" alt="" />
+			</div>
+</div>
+</body>
+</html>
